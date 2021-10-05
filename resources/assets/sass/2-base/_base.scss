@@ -1,0 +1,26 @@
+body{
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    //font-family: 'Open Sans';
+    line-height: 2;
+    h1{
+        //font-weight: 700;
+    }
+    h2, h4{
+        //font-weight: 700;
+    }
+    h5, a{
+        //font-weight: 600;
+    }
+
+    p{
+        font-size: 13px;
+        //font-weight: 500;
+        color: $clr-grey-1;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+}
