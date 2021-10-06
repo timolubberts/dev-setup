@@ -9,7 +9,7 @@ for (var i = 0, len = elms.length; i < len; i++) {
         autoplay: true,
         interval: 10000
     }).mount();
-    } else if (elms[i].id === "services-slide") {
+    } else if (elms[i].id === "dev-services-slide") {
     new Splide(elms[i], {
 
         pagination: false,

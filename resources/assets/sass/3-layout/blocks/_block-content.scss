@@ -1,0 +1,40 @@
+.dev-content{
+    @media only screen and (max-width: 991px){
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    @media only screen and (min-width: 992px){
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    &__image{
+        @media only screen and (max-width: 992px){
+            margin-top: 60px;
+        }
+        margin: 15% auto;
+        &--img{
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__paragraph{
+        h2{
+            @media (max-width: 992px){
+                margin-top: 40px;
+            }
+            color: $clr-blue-2;
+            margin-bottom: 40px;
+        }
+        h5{
+            margin-top: 30px;
+            color: black;
+        }
+        p{
+            color: $clr-grey-1;
+            margin-bottom: 50px;
+        }
+    }
+    
+}
