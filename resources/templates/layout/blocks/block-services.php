@@ -11,12 +11,16 @@
 
 ?>
 <section id="dev-services" class="dev-services">
+
     <div class="container">
-        <div class="row">
-            <div class="dev-services__title">
-                <?= get_field('services_header'); ?>
+        <?php if(get_field('services_header')): //Skips row if no header text is provided?>
+            <div class="row">
+                <div class="dev-services__header">
+                    <?= get_field('services_header'); ?>
+                </div>
             </div>
-        </div>
+        <?php endif; ?>
+
         <div class="row">
             <div class="col-lg-12">
                 <div id="dev-services-slide" class="splide">
@@ -26,8 +30,6 @@
                             <?php while(have_rows('services_repeater')): the_row(); ?>
                                 <?php 
                                     $icon = get_sub_field('service_icon'); 
-                                    $title = get_sub_field('service_title');  
-                                    $text = get_sub_field('service_text');  
                                     $link = get_sub_field('service_link');    
                                 ?>
                                 <div class="splide__slide">
@@ -35,6 +37,7 @@
                                         <div class="dev-services__item--icon">
                                             <img src="<?= $icon ?>">
                                         </div>
+
                                         <div class="dev-services__item--title">
                                             <?php the_sub_field('service_title'); ?>
                                         </div>

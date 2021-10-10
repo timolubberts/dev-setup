@@ -10,7 +10,11 @@
 
 
 ?>
+
 <section id="dev-content" class="dev-content">
+    <div class="bg">
+        <img src="<?= get_template_directory_uri() . '/resources/assets/images/background1.svg' ?>">
+    </div>
     <div class="container">
         <div class="row">
             <?php if(have_rows('layout_builder')):?>

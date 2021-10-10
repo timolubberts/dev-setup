@@ -27,6 +27,20 @@ function register_acf_block_types(){
         'supports'          => array('align' => false, 'mode' => false),
         'mode'              => 'edit',
     ));
+    acf_register_block_type(array(
+        'name'              => 'news',
+        'title'             => 'News',
+        'render_template'   => 'resources/templates/layout/blocks/block-news.php',
+        'supports'          => array('align' => false, 'mode' => false),
+        'mode'              => 'edit',
+    ));
+    acf_register_block_type(array(
+        'name'              => 'reviews',
+        'title'             => 'Reviews',
+        'render_template'   => 'resources/templates/layout/blocks/block-reviews.php',
+        'supports'          => array('align' => false, 'mode' => false),
+        'mode'              => 'edit',
+    ));
 }
 
 

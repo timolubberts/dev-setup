@@ -1,7 +1,7 @@
 var elms = document.getElementsByClassName('splide');
 console.log(elms.length);
 for (var i = 0, len = elms.length; i < len; i++) {
-    if (elms[i].id === "testimonials-slide") {
+    if (elms[i].id === "dev-reviews-slide") {
     new Splide(elms[i], {
         type: 'loop',
         pagination: true,
@@ -32,7 +32,7 @@ for (var i = 0, len = elms.length; i < len; i++) {
 
         }
     }).mount();
-    } else if (elms[i].id === "news-slide") {
+    } else if (elms[i].id === "dev-news-slide") {
     new Splide(elms[i], {
         perPage: 4,
         gap: 0,
