@@ -10,8 +10,11 @@
 
 
 ?>
-<section id="dev-services" class="dev-services">
 
+<section id="dev-services" class="dev-services">
+    <div class="bg">
+        <img src="<?= get_template_directory_uri() ?>/resources/assets/images/background1_grey.svg">
+    </div>
     <div class="container">
         <?php if(get_field('services_header')): //Skips row if no header text is provided?>
             <div class="row">

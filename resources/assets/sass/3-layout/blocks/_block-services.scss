@@ -1,5 +1,6 @@
 .dev-services{
-
+    position: relative;
+    overflow-y: visible;
 
     &__header{
         color: $clr-blue-2;
@@ -45,4 +46,12 @@
         }
     
     }
+}
+.bg{
+    top: -400px;
+    position: absolute;
+    height: auto;
+    max-width:100%;
+    overflow-x: hidden;
+    z-index:-1;
 }
