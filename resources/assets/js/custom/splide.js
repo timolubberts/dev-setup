@@ -1,5 +1,4 @@
 var elms = document.getElementsByClassName('splide');
-console.log(elms.length);
 for (var i = 0, len = elms.length; i < len; i++) {
     if (elms[i].id === "dev-reviews-slide") {
     new Splide(elms[i], {

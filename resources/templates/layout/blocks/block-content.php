@@ -13,7 +13,7 @@
 
 <section id="dev-content" class="dev-content">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <?php if(have_rows('layout_builder')):?>
                 <?php while(have_rows('layout_builder')):  ?>
                     <?php the_row(); ?>

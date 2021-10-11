@@ -158,10 +158,10 @@ add_action( 'wp_enqueue_scripts', 'dev_test_scripts' );
 
 function dev_test_custom(){
 	wp_enqueue_style( 'dev-test-splide-css', get_template_directory_uri() . '/node_modules/@splidejs/splide/dist/css/splide.min.css');
-
 	wp_enqueue_script( 'dev-test-splide-main', get_template_directory_uri() . '/node_modules/@splidejs/splide/dist/js/splide.min.js');
-	wp_enqueue_script( 'dev-test-splide-js', get_template_directory_uri() . '/resources/assets/js/custom.min.js');
-	//wp_enqueue_script( 'dev-test-splide-js', get_template_directory_uri() . '/resources/assets/js/custom.min.js');
+	
+	wp_enqueue_script( 'dev-test-fslightbox', get_template_directory_uri() . '/node_modules/fslightbox/index.js');
+
 }
 add_action('wp_enqueue_scripts', 'dev_test_custom');
 /**
@@ -195,3 +195,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 require get_template_directory() . '/inc/acf/acf-blocks.php';
 
+add_action( 'after_setup_theme', 'hd_theme_setup' );
+function hd_theme_setup() {
+    add_image_size( 'lightbox', 1920, 1080, false );
+}

@@ -6,22 +6,22 @@
   </defs>
   <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
     <rect width="1920" height="1080" fill="#fff"/>
-    <path id="Polygon_1" data-name="Polygon 1" d="M171,0,342,247H0Z" transform="translate(-55 909)" fill="#e7e7e7"/>
-    <path id="Polygon_2" data-name="Polygon 2" d="M175.5,0,351,76H0Z" transform="translate(116 835)" fill="#e7e7e7"/>
-    <path id="Polygon_3" data-name="Polygon 3" d="M127.5,0,255,83H0Z" transform="translate(292 756)" fill="#e7e7e7"/>
-    <path id="Polygon_4" data-name="Polygon 4" d="M154.5,0,309,64H0Z" transform="translate(419 709)" fill="#e7e7e7"/>
-    <path id="Polygon_5" data-name="Polygon 5" d="M204.5,0,409,183H0Z" transform="translate(572 558)" fill="#e7e7e7"/>
-    <path id="Polygon_6" data-name="Polygon 6" d="M284,0,568,126H0Z" transform="translate(775 433)" fill="#e7e7e7"/>
-    <path id="Polygon_7" data-name="Polygon 7" d="M163,0,326,115H0Z" transform="translate(1055 321)" fill="#e7e7e7"/>
-    <path id="Polygon_8" data-name="Polygon 8" d="M282,0,564,91H0Z" transform="translate(1220 252)" fill="#e7e7e7"/>
-    <path id="Polygon_9" data-name="Polygon 9" d="M418,0,836,256H0Z" transform="translate(1503)" fill="#e7e7e7"/>
-    <rect id="Rectangle_10" data-name="Rectangle 10" width="515" height="904" transform="translate(1502 252)" fill="#e7e7e7"/>
-    <rect id="Rectangle_11" data-name="Rectangle 11" width="333" height="789" transform="translate(1218 321)" fill="#e7e7e7"/>
-    <rect id="Rectangle_12" data-name="Rectangle 12" width="251" height="666" transform="translate(1059 433)" fill="#e7e7e7"/>
-    <rect id="Rectangle_13" data-name="Rectangle 13" width="376" height="560" transform="translate(775 558)" fill="#e7e7e7"/>
-    <rect id="Rectangle_14" data-name="Rectangle 14" width="214" height="402" transform="translate(575 709)" fill="#e7e7e7"/>
-    <rect id="Rectangle_15" data-name="Rectangle 15" width="214" height="402" transform="translate(420 756)" fill="#e7e7e7"/>
-    <rect id="Rectangle_16" data-name="Rectangle 16" width="214" height="402" transform="translate(292 835)" fill="#e7e7e7"/>
-    <rect id="Rectangle_17" data-name="Rectangle 17" width="214" height="402" transform="translate(116 909)" fill="#e7e7e7"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M171,0,342,247H0Z" transform="translate(-55 909)" fill="#f9f9f9"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M175.5,0,351,76H0Z" transform="translate(116 835)" fill="#f9f9f9"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M127.5,0,255,83H0Z" transform="translate(292 756)" fill="#f9f9f9"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M154.5,0,309,64H0Z" transform="translate(419 709)" fill="#f9f9f9"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M204.5,0,409,183H0Z" transform="translate(572 558)" fill="#f9f9f9"/>
+    <path id="Polygon_6" data-name="Polygon 6" d="M284,0,568,126H0Z" transform="translate(775 433)" fill="#f9f9f9"/>
+    <path id="Polygon_7" data-name="Polygon 7" d="M163,0,326,115H0Z" transform="translate(1055 321)" fill="#f9f9f9"/>
+    <path id="Polygon_8" data-name="Polygon 8" d="M282,0,564,91H0Z" transform="translate(1220 252)" fill="#f9f9f9"/>
+    <path id="Polygon_9" data-name="Polygon 9" d="M418,0,836,256H0Z" transform="translate(1503)" fill="#f9f9f9"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="515" height="904" transform="translate(1502 252)" fill="#f9f9f9"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="333" height="789" transform="translate(1218 321)" fill="#f9f9f9"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="251" height="666" transform="translate(1059 433)" fill="#f9f9f9"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="376" height="560" transform="translate(775 558)" fill="#f9f9f9"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="214" height="402" transform="translate(575 709)" fill="#f9f9f9"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="214" height="402" transform="translate(420 756)" fill="#f9f9f9"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="214" height="402" transform="translate(292 835)" fill="#f9f9f9"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="214" height="402" transform="translate(116 909)" fill="#f9f9f9"/>
   </g>
 </svg>

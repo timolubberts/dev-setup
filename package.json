@@ -47,6 +47,7 @@
 	},
 	"dependencies": {
 		"@splidejs/splide": "^2.4.21",
-		"bootstrap": "^5.1.1"
+		"bootstrap": "^5.1.1",
+		"fslightbox": "^3.3.0-2"
 	}
 }

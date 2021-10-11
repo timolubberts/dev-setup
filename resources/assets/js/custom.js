@@ -14,8 +14,11 @@ function openMenu() {
 }
 "use strict";
 
+// refreshes the lightbox when new content is added
+refreshFsLightbox();
+"use strict";
+
 var elms = document.getElementsByClassName('splide');
-console.log(elms.length);
 
 for (var i = 0, len = elms.length; i < len; i++) {
   if (elms[i].id === "dev-reviews-slide") {
